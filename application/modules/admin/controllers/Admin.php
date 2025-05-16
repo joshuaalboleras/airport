@@ -8,7 +8,7 @@ class Admin extends MX_Controller {
     } 
 
 	public function index() {
-		echo "working";
+		$this->load->view('dashboard');
 	} 
 
 	public function home() {
