@@ -1,14 +1,14 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Users extends MX_Controller {
+class Admin extends MX_Controller {
 	public function __construct() {
         parent::__construct();
    		$this->load->model(array('model'));
     } 
 
 	public function index() {
-		$this->load->view('login');
+		echo "working";
 	} 
 
 	public function home() {
